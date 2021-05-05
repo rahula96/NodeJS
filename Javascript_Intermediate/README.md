@@ -46,3 +46,30 @@ https://www.youtube.com/playlist?list=PLZKTXPmaJk8JZ2NAC538UzhY_UNqMdZB4
 ### 자바스크립트 중급 강좌 #3 - 객체 메소드(Object methods), 계산된 프로퍼티(Computed property) : https://youtu.be/6NZpyA64ZUU
 
 실습 : Javascript_Intermediate/test_03.js
+
+### 자바스크립트 중급 강좌 #4 - 심볼(Symbol) : https://youtu.be/E9uCNn6BaGQ
+
+- 유일한 식별자를 만들때 사용
+- 전역 심볼 : Symbol.for()
+    - 하나의 심볼만 보장 받을 수 있음
+    - 없으면 만들고, 있으면 가져오기 때문
+    - Symbol함수는 매번 다른 Symbol값을 생성하지만,
+    - Symbol.for 메소드는 하나를 생성한 뒤 키를 통해 같은 Symbol을 공유
+
+실습 : Javascript_Intermediate/test_04.js
+
+### 자바스크립트 중급 강좌 #5 - 숫자, 수학 method (Number, Math) : https://youtu.be/ZI6TT93wggA
+
+### 자바스크립트 중급 강좌 #6 - 문자열 메소드(String methods) : https://youtu.be/G360D6lqrfo
+
+실습 : Javascript_Intermediate/test_06.js
+
+### 자바스크립트 중급 강좌 #7 - 배열 메소드1(Array methods) : https://youtu.be/pJzO6O-aWew
+
+- Array
+    - push() : 뒤에 삽입
+    - pop() : 뒤에 삭제
+    - unshift() : 앞에 삽입
+    - shift() : 앞에 삭제
+
+실습 : Javascript_Intermediate/test_07.js
