@@ -73,3 +73,60 @@ https://www.youtube.com/playlist?list=PLZKTXPmaJk8JZ2NAC538UzhY_UNqMdZB4
     - shift() : 앞에 삭제
 
 실습 : Javascript_Intermediate/test_07.js
+
+
+### 자바스크립트 중급 강좌 #8 - 배열 메소드2 (sort, reduce) : https://youtu.be/RW25tEAMC9w
+
+실습 : Javascript_Intermediate/test_08.js
+
+https://lodash.com/ : A modern JavaScript utility library delivering modularity, performance & extras.
+
+### 자바스크립트 중급 강좌 #9 구조 분해 할당 (Destructuring assignment) : https://youtu.be/lV7ulA7R5Nk
+
+Destructuring assignment : 구조 분해 할당 구문은 배열이나 객체의 속성을 분해해서 그 값을 변수에 담을 수 있게 하는 표현식
+
+### 자바스크립트 중급 강좌 #10 나머지 매개변수, 전개 구문(Rest parameters, Spread syntax) : https://youtu.be/lekNM8ldxno
+
+실습 : Javascript_Intermediate/test_10.js
+
+### 자바스크립트 중급 강좌 #11 클로저(Closure) 5분만에 이해하기 : https://youtu.be/tpl2oXQkGZs
+
+### 자바스크립트 중급 강좌 #12 setTimeout / setInterval : https://youtu.be/nwk_aNbFEEc
+
+실습 : Javascript_Intermediate/test_12.js
+
+### 자바스크립트 중급 강좌 #13 call, apply, bind : https://youtu.be/KfuyXQLFNW4
+
+> call
+> - call 메소드는 모든 함수에서 사용할 수 있으며, this를 특정값으로 지정할 수 있다.
+> - 실습 : Javascript_Intermediate/test_13.js
+
+> apply
+> - apply는 함수 매개변수를 처리하는 방법을 제외함녀, call과 완전히 같습니다.
+> - call은 일반적인 함수와 마찬가지로 매개변수를 직접 받지만, apply는 매개변수를 배열로 받습니다.
+> - 실습 : Javascript_Intermediate/test_13_1.js
+
+> bind
+> - 함수의 this값을 영구히 바꿀 수 있습니다.
+> - 실습 : Javascript_Intermediate/test_13_2.js
+
+### 자바스크립트 중급 강좌 #14 상속, 프로토타입(Prototype) : https://youtu.be/ddJcDZHBRm0
+
+- 실습 : Javascript_Intermediate/test_14.js
+
+### 자바스크립트 중급 강좌 #15 클래스(Class) : https://youtu.be/OpvtD7ELMQo
+
+- ES6에 추가된 스펙
+
+### 자바스크립트 중급 강좌 #16 프로미스(Promise) : https://youtu.be/3Ao3OroqQLQ
+
+- 실습 : Javascript_Intermediate/test_16.js
+
+### 자바스크립트 중급 강좌 #17 async, await : https://youtu.be/Uh8u20MD978
+
+- 실습 : Javascript_Intermediate/test_17_2.js
+
+### 자바스크립트 중급 강좌 #18 Generator : https://youtu.be/qi24UqyJLgs
+- Generator : 함수의 실행을 중간에 멈췄다가 재개할 수 있는 기능
+- 실습 : Javascript_Intermediate/test_18.js
+
