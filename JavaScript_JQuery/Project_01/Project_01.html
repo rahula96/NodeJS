@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="large-8 cell">
+                <div class="callout">
+                    <p></p>
+                </div>
+            </div>
+            <div class="large-8 cell">
+                <div class="callout">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="large-6 cell">
+                <div class="callout" onclick="ac_click('AC')">
+                    <p>AC</p>
+                    <!-- <input type="button" value="AC" onclick="ac_click('AC')"> -->
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="callout" onclick="calcu('/')">
+                    <p>/</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="large-2 cell">
+                <div class="primary callout" onclick="number_click(7)">
+                    <p>7</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="primary callout" onclick="number_click(8)">
+                    <p>8</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="primary callout" onclick="number_click(9)">
+                    <p>9</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="callout" onclick="calcu('*')">
+                    <p>*</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="large-2 cell">
+                <div class="primary callout" onclick="number_click(4)">
+                    <p>4</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="primary callout" onclick="number_click(5)">
+                    <p>5</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="primary callout" onclick="number_click(6)">
+                    <p>6</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="callout" onclick="calcu('-')">
+                    <p>-</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="large-2 cell">
+                <div class="primary callout" onclick="number_click(1)">
+                    <p>1</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="primary callout" onclick="number_click(2)">
+                    <p>2</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="primary callout" onclick="number_click(3)">
+                    <p>3</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="callout" onclick="calcu('+')">
+                    <p>+</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="large-4 cell">
+                <div class="primary callout" onclick="number_click(0)">
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="callout" onclick="number_click('.')">
+                    <p>.</p>
+                </div>
+            </div>
+            <div class="large-2 cell">
+                <div class="callout" onclick="result('=')">
+                    <p>=</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/foundation.js"></script>
+    <script src="calculate.js"></script>
+</body>
+</html>

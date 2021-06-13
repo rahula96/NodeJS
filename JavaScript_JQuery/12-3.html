@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let grades = {
+            'list': { 'egoing': 10, 'k8805': 6, 'sorialgi': 80 },
+            'show': function () {
+                // alert('Hello world');
+                // alert(this.list);
+                // console.log(this.list);
+                for (let name in this.list) {
+                    console.log(name, this.list[name]);
+                }
+            }
+        }
+        // grades['show']();
+        grades.show();
+    </script>
+</body>
+
+</html>

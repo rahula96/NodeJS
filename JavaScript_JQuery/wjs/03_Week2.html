@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        /* 하기 버튼이 원하는대로 동작되도록 이 부분을 제이쿼리 코드로 채우시오.
+        단, 이 부분 이외에 다른 부분은 변경하지 않습니다. */
+
+        $("#btn1").click(function () {
+            $('#para1').css('background-color', 'yellow')
+        });
+
+        $("#btn2").click(function () {
+            $('.paraClass').css('background-color', 'yellow')
+
+        });
+    
+        $("#btn3").click(function () {
+            $('p').css('background-color', 'yellow');
+        });
+        $("#btn4").click(function () {
+            let ptag = $('p');
+            ptag[3].setAttribute('style', 'background-color:yellow');
+        });
+
+    });
+</script>
+
+<body>
+    <h2>Change the background of the following paragraphs</h2>
+
+    <p id="para1" style="background-color:#ff0000">(1)This is a paragraph.</p>
+    <p class="paraClass" style="background-color:#00ff00">(2)This is a paragraph.</p>
+    <p class="paraClass" style="background-color:#0000ff">(3)This is a paragraph.</p>
+    <p>(4)This is a paragraph.</p>
+
+    <button id="btn1">Set background-color of (1) to yellow</button>
+    <button id="btn2">Set background-color of (2) and (3) to yellow</button>
+    <button id="btn3">Set background-color of (1),(2),(3) and (4) to yellow</button>
+    <button id="btn4">Set background-color of (4) to yellow</button>
+
+
+</body>
+
+</html>
