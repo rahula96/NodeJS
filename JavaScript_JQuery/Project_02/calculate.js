@@ -42,7 +42,6 @@ function ac_click(params) {
 
 function result(params) {
 
-    let result = 0;
     let express = document.getElementById('express').innerHTML;
     const strexpress = express.split(numberObj.operator);
 
@@ -51,22 +50,22 @@ function result(params) {
 
     switch (numberObj.operator) {
         case '+':
-            result = numberObj.number_before + numberObj.number_after;
+            numberObj.result = numberObj.number_before + numberObj.number_after;
             break;
         case '-':
-            result = numberObj.number_before - numberObj.number_after;
+            numberObj.result = numberObj.number_before - numberObj.number_after;
             break;
         case '/':
-            result = numberObj.number_before / numberObj.number_after;
+            numberObj.result = numberObj.number_before / numberObj.number_after;
             break;
         case '*':
-            result = numberObj.number_before * numberObj.number_after;
+            numberObj.result = numberObj.number_before * numberObj.number_after;
             break;
         default:
             break;
     }
 
-    document.getElementById('result').innerHTML = result;
+    document.getElementById('result').innerHTML = numberObj.result;
 
 }
 
