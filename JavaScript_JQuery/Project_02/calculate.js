@@ -67,6 +67,8 @@ function result(params) {
 
     document.getElementById('result').innerHTML = numberObj.result;
 
+    addRow(numberObj)
+
 }
 
 function calcu(params) {
@@ -77,3 +79,21 @@ function calcu(params) {
 
     express.appendData(params);
 }
+
+function addRow(params) {
+    const table = document.getElementById('calcu_result');
+    
+    const newRow = table.insertRow();
+
+    const newCell1 = newRow.insertCell(0);
+    const newCell2 = newRow.insertCell(1);
+    
+    newCell1.innerText = params.number_before + params.operator + params.number_after + '=' + params.result;
+    newCell2.innerHTML = "<input type='button' value='삭제' onclick='deleteRow("+(table.rows.length-1)+")' />";
+  }
+
+  function deleteRow(rownum) {
+    const table = document.getElementById('calcu_result');
+    
+    const newRow = table.deleteRow(rownum);
+  }
